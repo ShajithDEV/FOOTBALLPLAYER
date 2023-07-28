@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Slabo 27px', serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+}
+img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition:  0.5s linear;
+}
+.box1 h1{
+    color: red;
+    padding: 20px;
+}
+.box1{
+    font-weight: 600;
+    font-size: 30px;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    gap: 30px;
+    text-align: center;
+    /* align-items: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.box4 h2{
+    padding-top: 20px;
+}
+.box3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+.box9{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    gap: 5px;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    transition: all 0.5s linear;
+}
+.box5:hover img{
+    border: 5px solid whitesmoke;
+    scale: 1.2;
+}
+.box6:hover img{
+    border: 5px solid whitesmoke;
+    scale: 1.2;
+}
+.box7:hover img{
+    border: 5px solid whitesmoke;
+    scale: 1.2;
+}
+.box8:hover img{
+    border: 5px solid whitesmoke;
+    scale: 1.2;
+}
+button:hover{
+    background-color: red;
+}
+@media screen and (min-width:320px) and (max-width:760px) {
+    body{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        /* overflow-x: hidden; */
+    }
+    .box1 h1{
+        text-align: center;
+        /* padding-top: 10px; */
+        position: relative;
+        top: 10px;
+    }
+    .box3 h1{
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        bottom: 10px;
+    }
+    button{
+        position: relative;
+        bottom: 20px;
+    }
+}
+@media screen and (min-width:761px) and (max-width:1024px) {
+    body{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+}

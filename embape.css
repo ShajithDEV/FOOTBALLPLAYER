@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Patua One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(9, 28, 71, 0.7),rgba(5, 45, 59, 0.7)), url(MbappeL.jpg);
+    background-size: cover;
+    color: whitesmoke;
+}
+.sub1 a{
+    color:#E50914 ;
+    text-decoration: none;
+}
+.sub1{
+    /* border: 2px solid black; */
+    color: 	#E50914;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.sub2{
+    padding-top:10px ;
+}
+.sub2 ul{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    /* text-decoration: none; */
+}
+.sub2 ul li{
+    padding: 5px 20px;
+    list-style-type: none;
+    color: whitesmoke;
+}
+.sub2 ul li::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color:	#E50914;
+    display: block;
+    transform: scale(0);
+    transition: all 0.3s linear;
+}
+.sub2 ul li:hover::after{
+    transform: scale(1);
+}
+.sub3{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.sub3{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: 	#E50914;
+    font-size: 40px;
+    font-weight: bold;
+    /* padding-right: 5px; */
+}
+.sub4{
+    padding: 50px 0 0 50px;
+    /* border: 2px solid black; */
+    position: relative;
+    width: 50%;
+    left: 20px;
+    /* top: 30px; */
+}
+.sub4 h1{
+    padding-left: 100px;
+    font-size: 40px;
+}
+.sub4 h2{
+    padding-top: 10px;
+}
+.sub4 li {
+    /* box-shadow: 0 10px 20px rgb(240, 6, 6); */
+    padding: 5px;
+}
+.sub4 li ::after{
+    content: "";
+    display: block;
+    width: 100%;
+}
+.sub4 p{
+    padding: 10px;
+    box-shadow: 0 0 20px goldenrod;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color:	#E50914;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 10px;
+    /* padding-top: 20px; */
+}
+button:hover{
+    background-color: rgb(255, 254, 254);
+    color: 	#E50914;
+}
+@media screen and (min-width:320px) and (max-width:760px) {
+    body{
+        background-repeat:no-repeat ;
+        background-size: cover;
+        width: 90%;
+        height: 100%;
+        background-image:linear-gradient(rgba(9, 28, 71, 0.7),rgba(5, 45, 59, 0.7)),url(MbappeM.jpg);
+    }
+    .sub2{
+        display: none;
+    }
+    .sub4 h3{
+        display: none;
+    }
+    .sub4 h1{
+        position: relative;
+        right: 100px;
+        bottom: 40px;
+    }
+    .sub4{
+        width: 100%;
+    }
+    .sub4 p{
+        position: relative;
+        right: 25px;
+        overflow: hidden;
+        color: rgb(226, 246, 75);
+        font-weight: bold;
+        margin: 30px;
+    }
+    .sub1 h1{
+        position: relative;
+        left: 20px;
+    }
+    button{
+        margin-bottom: 20px;
+    }
+}
+ @media screen and (min-width:768px) and (max-width:1024px) {
+    body{
+        width: 100%;
+        height: 100vh;
+    background-image: linear-gradient(rgba(9, 28, 71, 0.7),rgba(5, 45, 59, 0.7)),url(Mbappel.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    object-fit: cover;
+    }
+    .sub4 p{
+        margin: 10px;
+    }
+    .sub5 button{
+        margin-bottom: 20px;
+    }
+} 
