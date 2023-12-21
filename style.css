@@ -65,19 +65,19 @@ button{
     transition: all 0.5s linear;
 }
 .box5:hover img{
-    border: 5px solid whitesmoke;
-    scale: 1.1;
+    border: 2px solid whitesmoke;
+    scale: 0.7;
 }
 .box6:hover img{
-    border: 5px solid whitesmoke;
+    border: 2px solid whitesmoke;
     scale: 1.2;
 }
 .box7:hover img{
-    border: 5px solid whitesmoke;
+    border: 2px solid whitesmoke;
     scale: 1.2;
 }
 .box8:hover img{
-    border: 5px solid whitesmoke;
+    border: 2px solid whitesmoke;
     scale: 1.2;
 }
 button:hover{
